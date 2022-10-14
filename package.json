@@ -1,5 +1,5 @@
 {
-    "name": "@contasystemer/angularjs-assert",
+    "name": "@metronome-software/angularjs-assert",
     "version": "1.0.5",
     "description": "AngularJS assert module provides a set of assertion functions for verifying invariants.",
     "main": "index.js",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/contasystemer/angularjs-assert.git"
+        "url": "git+https://github.com/metronome-software/angularjs-assert.git"
     },
     "keywords": [
         "Conta",
@@ -18,9 +18,9 @@
     "author": "Conta AS development team",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/contasystemer/angularjs-assert/issues"
+        "url": "https://github.com/metronome-software/angularjs-assert/issues"
     },
-    "homepage": "https://github.com/contasystemer/angularjs-assert#readme",
+    "homepage": "https://github.com/metronome-software/angularjs-assert#readme",
     "devDependencies": {
         "angular": "^1.7.9",
         "angular-mocks": "^1.7.9",
