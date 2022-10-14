@@ -1,6 +1,6 @@
 {
     "name": "@metronome-software/angularjs-assert",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "AngularJS assert module provides a set of assertion functions for verifying invariants.",
     "main": "index.js",
     "scripts": {
