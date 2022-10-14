@@ -1,3 +1,3 @@
 require('angular');
-require('./src/angularjs-assert.js');
+require('./src/cs-assert.provider.js');
 module.exports = 'conta.assert';
