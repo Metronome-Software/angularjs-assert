@@ -1,10 +1,10 @@
 {
     "name": "@metronome-software/angularjs-assert",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "AngularJS assert module provides a set of assertion functions for verifying invariants.",
     "main": "index.js",
     "scripts": {
-        "test": "karma start"
+        "test": "./node_modules/karma/bin/karma start"
     },
     "repository": {
         "type": "git",
@@ -22,14 +22,14 @@
     },
     "homepage": "https://github.com/metronome-software/angularjs-assert#readme",
     "devDependencies": {
-        "angular": "^1.7.9",
-        "angular-mocks": "^1.7.9",
+        "angular": "^1.5.11",
+        "angular-mocks": "^1.5.11",
         "karma": "^5.1.1",
         "karma-chrome-launcher": "^3.1.0",
         "karma-jasmine": "^4.0.1",
         "puppeteer": "^5.2.1"
     },
     "peerDependencies": {
-        "angular": "^1.7.9"
+        "angular": "^1.5.11"
     }
 }
