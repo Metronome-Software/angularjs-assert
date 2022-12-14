@@ -15,7 +15,17 @@ module.exports = function(config) {
         frameworks: ['jasmine'],
 
         // start these browsers
-        browsers: ['ChromeHeadless'],
+        browsers: ['ChromeHeadlessCustom'],
+
+        customLaunchers: {
+            ChromeHeadlessCustom: {
+                base: 'ChromeHeadless',
+                flags: [
+                    '--in-process-gpu',
+                    '--no-sandbox',
+                ]
+            }
+        },
 
         // list of files / patterns to load in the browser
         files: [
